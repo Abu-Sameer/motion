@@ -1,0 +1,55 @@
+.testContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.cont {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: darkblue;
+  border-radius: 5px;
+}
+
+.conto {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: darkslategray;
+  border-radius: 5px;
+}
+
+.main-btn button {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: slateblue;
+  color: white;
+  font-family: 'inter', sans-serif;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: slateblue;
+  color: white;
+  font-family: 'raleway', sans-serif;
+  text-transform: capitalize;
+  cursor: pointer;
+}

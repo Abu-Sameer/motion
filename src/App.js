@@ -1,18 +1,20 @@
 import './App.css';
-import Box1 from './component/Box1/Box1';
-import Box2 from './component/Box2/Box2';
-import Box3 from './component/Box3/Box3';
-import Box4 from './component/Box4/Box4';
-import Box5 from './component/Box5/Box5';
+import TestBox from './TestBox';
+// import Box1 from './component/Box1/Box1';
+// import Box2 from './component/Box2/Box2';
+// import Box3 from './component/Box3/Box3';
+// import Box4 from './component/Box4/Box4';
+// import Box5 from './component/Box5/Box5';
 
 function App() {
   return (
     <div className="App">
-      <Box1 />
+      <TestBox />
+      {/* <Box1 />
       <Box2 />
       <Box3 />
       <Box4 />
-      <Box5 />
+      <Box5 /> */}
     </div>
   );
 }
