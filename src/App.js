@@ -1,5 +1,5 @@
 import './App.css';
-import TestBox from './TestBox';
+import TestBox from './All-in-one/TestBox';
 // import Box1 from './component/Box1/Box1';
 // import Box2 from './component/Box2/Box2';
 // import Box3 from './component/Box3/Box3';
