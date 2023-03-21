@@ -34,6 +34,7 @@
   font-family: 'inter', sans-serif;
   text-transform: capitalize;
   cursor: pointer;
+  transition: 0.33s;
 }
 
 .btn {
@@ -52,4 +53,13 @@
   font-family: 'raleway', sans-serif;
   text-transform: capitalize;
   cursor: pointer;
+  transition: 0.33s;
+}
+
+button:active {
+  scale: 95%;
+}
+
+button:hover {
+  opacity: 0.5;
 }

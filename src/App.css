@@ -5,15 +5,10 @@
 }
 
 .App {
+  height: 100vh;
   padding: 3rem;
   display: flex;
   justify-content: center;
-  /* background: linear-gradient(
-    106.37deg,
-    #ffe1bc 29.63%,
-    #ffcfd1 51.55%,
-    #f3c6f1 90.85%
-  ); */
   background: linear-gradient(
     106deg,
     skyblue 20%,

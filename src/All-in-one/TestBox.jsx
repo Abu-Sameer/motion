@@ -33,7 +33,7 @@ export default function TestBox() {
         <button
           onClick={() => {
             control.start({
-              y: -300,
+              y: -250,
               rotate: -270,
               transition: { duration: 3 },
             });
@@ -43,7 +43,7 @@ export default function TestBox() {
         </button>
         <button
           onClick={() => {
-            control.start({ y: 300, rotate: 270, transition: { duration: 3 } });
+            control.start({ y: 345, rotate: 270, transition: { duration: 3 } });
           }}
         >
           move down
