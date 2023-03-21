@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import './TestBox.css';
+import { useState } from 'react';
 
 export default function TestBox() {
+  const [rotateScale, setrotateScale] = useState(false);
   const control = useAnimation();
   const controller = useAnimation();
   return (
@@ -75,6 +77,7 @@ export default function TestBox() {
       </div>
       <div className="testContainer">
         <motion.div className="cont" animate={control} />
+        <motion.div className="conto" animate={controller} />
         <div className="btn">
           <button
             onClick={() => {
@@ -82,7 +85,6 @@ export default function TestBox() {
                 x: 600,
                 rotate: 360,
                 opacity: 1,
-                initial: { opacity: 0.3 },
                 transition: { type: 'spring', stiffness: 30 },
               });
             }}
@@ -95,7 +97,6 @@ export default function TestBox() {
                 x: -600,
                 rotate: -360,
                 opacity: 1,
-                initial: { opacity: 0.3 },
                 transition: { type: 'spring', stiffness: 30 },
               });
             }}
@@ -103,7 +104,18 @@ export default function TestBox() {
             roll right
           </button>
         </div>
-        <motion.div className="conto" animate={controller} />
+        <motion.div
+          className="cont-last"
+          onClick={() => setrotateScale(!rotateScale)}
+          animate={{
+            scale: rotateScale ? [1.1, 1.3, 1.5, 1.3, 1.1] : '',
+            rotate: rotateScale ? [0, 220, 360, 360, 0] : '',
+            borderRadius: rotateScale
+              ? ['10%', '30%', ' 50%', '50%', '10%']
+              : '',
+            transition: rotateScale ? { duration: 2 } : '',
+          }}
+        />
       </div>
     </div>
   );
