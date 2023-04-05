@@ -1,5 +1,6 @@
 import './App.css';
-import TestBox from './All-in-one/TestBox';
+import Card from './expandable/Card';
+// import TestBox from './All-in-one/TestBox';
 // import Box1 from './component/Box1/Box1';
 // import Box2 from './component/Box2/Box2';
 // import Box3 from './component/Box3/Box3';
@@ -9,7 +10,8 @@ import TestBox from './All-in-one/TestBox';
 function App() {
   return (
     <div className="App">
-      <TestBox />
+      <Card />
+      {/* <TestBox /> */}
       {/* <Box1 />
       <Box2 />
       <Box3 />

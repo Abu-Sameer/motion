@@ -3,19 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  background: linear-gradient(
-    106deg,
-    skyblue 20%,
-    rgb(201, 201, 63) 40%,
-    rgb(117, 37, 37) 70%
-  );
-}
-
-.App {
-  height: 100vh;
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-}
